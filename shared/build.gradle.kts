@@ -44,7 +44,6 @@ kotlin {
 
             implementation(libs.auth.kmp)
             implementation(libs.firebase.app)
-
             implementation(libs.koin.compose)
 
             api(libs.kmp.notifier)
