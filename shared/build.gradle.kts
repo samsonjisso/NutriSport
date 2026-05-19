@@ -1,4 +1,3 @@
-import org.gradle.api.JavaVersion
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -44,6 +43,7 @@ kotlin {
 
             implementation(libs.auth.kmp)
             implementation(libs.firebase.app)
+
             implementation(libs.koin.compose)
 
             api(libs.kmp.notifier)
@@ -68,5 +68,4 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
-
 
